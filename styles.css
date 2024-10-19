@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: #d5e1ef;
+}
+.main {
+  display: grid;
+  place-items: center;
+  padding: 25px 0;
+}
+.card {
+  max-width: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px 16px 40px 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card .title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #1f314f;
+  text-align: center;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+.card p {
+  font-size: 15px;
+  color: #68778d;
+  text-align: center;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
