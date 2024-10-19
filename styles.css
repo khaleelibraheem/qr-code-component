@@ -10,7 +10,7 @@ body {
 .main {
   display: grid;
   place-items: center;
-  padding: 25px 0;
+  height: 100vh;
 }
 .card {
   max-width: 320px;
